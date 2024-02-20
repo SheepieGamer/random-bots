@@ -9,6 +9,7 @@ from asyncio import sleep
 import chat_exporter
 import datetime
 import os, asyncio
+from secret import secret
 
 
 activity = discord.Streaming(url="https://www.youtube.com/watch?v=rNYzyQAYBjg", name="midnightsmp.us.to")
@@ -369,4 +370,4 @@ async def help(interaction: discord.Interaction):
   embed.set_footer(text="Developed by @sheepiegamer")
   await interaction.response.send_message(embed=embed, ephemeral=True)
 
-client.run('MTEyMzcwMTM0NTA2MTQ0NTYzMg.GcaGBj.U1wCkbkXi-Dh_j4nedzOFewgyJgfi7AABnQ90I')
+client.run(secret)

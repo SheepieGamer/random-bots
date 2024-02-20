@@ -4,6 +4,7 @@ from discord import Webhook
 discord.utils.setup_logging()
 import discord, aiohttp, asyncio
 from discord import Webhook
+from secret import secret
 
 username = ""
 
@@ -55,4 +56,4 @@ async def sell(ctx):
     await send(username=ctx.author.mention, username2 = ctx.author)
 
 
-bot.run("MTE1Nzc5Njc5Mzc2NjExNzQxOA.GXx-Vx._H-t6XruAgTlPOU7S4sGazM-9LcMBp5Sj9nAU8")
+bot.run(secret)

@@ -6,7 +6,6 @@ from emojify import emojify_image
 from PIL import Image
 from typing import Union
 from discord.ui import Button, button, View
-from discord.embeds import Embed
 discord.utils.setup_logging()
 
 

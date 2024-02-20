@@ -1,4 +1,5 @@
-TOKEN = "MTE1NzQxODI4MTM5MzcyMTQ2Nw.GIj8Ix.S5WwtTrAObC8nhyCzuH9qMSlWqrt824XBHljys"
+from secret import secret
+TOKEN = secret
 CLIENT_ID = "1157418281393721467"
 CLIENT_SECRET = "BHx7tCbooup0VmgTo0KVq6K13Fsmja0x"
 
