@@ -1,7 +1,7 @@
 from secret import secret
 TOKEN = secret
 CLIENT_ID = "1157418281393721467"
-CLIENT_SECRET = "BHx7tCbooup0VmgTo0KVq6K13Fsmja0x"
+CLIENT_SECRET = "secret"
 
 CHAT_BID = "176305"
 CHAT_API_KEY = "k3VcoZ1hICTg8lRM"
